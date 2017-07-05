@@ -12,3 +12,11 @@ function draw() {
 	bird.update();
 	bird.show();
 }
+
+function keyPressed() {
+	if (key == ' ') {
+		bird.up();
+		console.log('UP');	
+	}
+
+}
